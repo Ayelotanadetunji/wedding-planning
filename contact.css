@@ -1,0 +1,87 @@
+body{
+    background-color: beige;
+    background-size: cover;
+}
+header{
+    height: 5%;
+   position: fixed;
+   width: 100%; 
+   margin-top: -70px;
+}
+header h1{
+    float: left;
+    color: rgb(255, 183, 0);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+    
+}
+nav{
+    float: right;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: -14px ;
+    font-size: 22px;
+    }
+    .navbar a{
+        color: #150101;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-right: 10px;
+        font-weight: 500;
+    
+    }
+    .navbar .home:hover{
+        color: black;
+    
+    }
+    .navbar .vendor:hover{
+        color: black;
+    }
+    .navbar .client:hover{
+        color: black;
+    }
+    .navbar .service:hover{
+        color: black;
+    }
+    .navbar .contact:hover{
+        color: black;
+    }
+    .navbar .blog:hover{
+        color: black;
+    }
+    #menu_bar{
+        font-size: 3rem;
+        color: #ffff;
+        }
+
+
+form{
+    text-align: center;
+    background-color:  rgba(238, 234, 234, 0.918);
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+}
+input {
+    width: 200px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(76, 73, 47);
+    font-size: 18px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.8s;
+    outline: none;
+    height: 35px;
+    color: rgb(17, 12, 12);
+}
+button {
+    border:none;
+    width: 190px;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+}

@@ -1,0 +1,110 @@
+body{
+    background-color: snow;
+}
+header{
+    height: 5%;
+   position: fixed;
+   width: 100%; 
+}
+header h1{
+    float: left;
+    color: goldenrod;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 30px;
+}
+nav{
+    float: right;
+    justify-content: space-between;
+    padding: 40px;
+    margin-top: -14px ;
+    font-size: 22px;
+    }
+    .navbar a{
+        color: #150101;
+        text-transform: uppercase;
+        text-decoration: none;
+        padding-right: 10px;
+        font-weight: 500;
+    
+    }
+    .navbar .home:hover{
+        color: black;
+    
+    }
+    .navbar .vendor:hover{
+        color: black;
+    }
+    .navbar .client:hover{
+        color: black;
+    }
+    .navbar .service:hover{
+        color: black;
+    }
+    .navbar .contact:hover{
+        color: black;
+    }
+    .navbar .blog:hover{
+        color: black;
+    }
+    #menu_bar{
+        font-size: 3rem;
+        color: #ffff
+        ;
+    }
+    .all{
+        padding-top: 80px;
+    }
+    .step1{
+        width: 90%;
+        margin-left: 90px;
+    }
+    .fig1{
+        float: left;
+        padding-right: 15px;
+    }
+    .fig2{
+        float: left;
+        padding-right: 15px;
+    }
+    .fig3{
+        float: left;
+        padding-right: 15px;
+    }
+    .para{
+        text-align: center;
+        margin-top: -15px;
+    }
+    img{
+        border-radius: 15px;
+    }
+    figcaption h3{
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .step2{
+        width: 90%;
+        margin-left: 80px;
+    }
+    .fig4{
+        float: left;
+        padding-right: 15px;
+    }
+    .fig5{
+        float: left;
+        padding-right: 15px;
+    }
+    .fig6{
+        float: left;
+        padding-right: 15px;
+    }
+    footer{
+        background-color:rgba(243, 240, 240, 0.329) ;
+        padding: 10px;
+        margin-top: 220px;
+        text-align: center;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-bottom: -12px;
+    }
+    

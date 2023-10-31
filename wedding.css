@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+body{
+background-image: url(./images/img4.jpg);
+background-size: cover;
+}
+.img1{ 
+    padding: 10px;
+    height: 95px;
+    width: 100px;
+    transition: width 2s;
+    border: #Ffffff 1px solid;
+    border-radius: 50%;
+}
+.img1:hover{
+width: 130px;
+height: 130px;
+}
+header{
+    height: 13%;
+   position: fixed;
+   width: 100%;
+   margin-top: -250px;
+   
+}
+    
+img:hover {
+    width: 300px;
+  }
+
+.navbar{
+float: right;
+justify-content: space-between;
+padding: 40px;
+margin-top:8px ;
+font-size: 22px;
+}
+
+#content1{
+   padding-top: 5px;
+}
+footer{
+    background-color:rgba(243, 240, 240, 0.329) ;
+    padding: 10px;
+    margin-top: 220px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: -8px;
+    margin-right: -8px;
+    margin-bottom: -12px;
+}
+
+.navbar a{
+    color: #150101;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding-right: 10px;
+    font-weight: 500;
+
+}
+.navbar .home:hover{
+    color: black;
+
+}
+.navbar .vendor:hover{
+    color: black;
+}
+.navbar .client:hover{
+    color: black;
+}
+.navbar .service:hover{
+    color: black;
+}
+.navbar .contact:hover{
+    color: black;
+}
+.navbar .blog:hover{
+    color: black;
+}
+#menu_bar{
+    font-size: 3rem;
+    color: #ffff
+    ;
+}
+#h11{
+    text-align: center;
+    font-weight: 500px;
+    font-size: 25px;
+    color: rgba(21, 20, 20, 0.919);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-top-right-radius: 70px;
+     border-bottom-left-radius: 70px;
+    height: 12px;
+    background: rgba(236, 236, 236, 0.40);
+    padding: 25px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+#content1{
+    margin-top: 250px;
+}
+form{
+    text-align: center;
+    background-color: antiquewhite;
+}
+input {
+    width: 200px;
+    text-align: center;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid rgb(187, 185, 171);
+    font-size: 18px;
+    font-weight: 200px;
+    padding: 10px 0;
+    transition: border 0.5s;
+    outline: none;
+    height: 35px;
+    color: rgb(0, 0, 0);
+}
+button {
+    border:none;
+    width: 190px;
+    font-size: 20px;
+    line-height: 25px;
+    padding: 10px 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.quotes1{
+    color:rgba(227, 171, 28, 0.844);
+    margin-top: -280px;
+    text-align: end;
+    margin-right: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+}
+.quotes{
+    color: rgba(227, 171, 28, 0.844);
+    margin-top: -280px;
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150px;
+}
