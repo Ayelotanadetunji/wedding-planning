@@ -1,12 +1,30 @@
 body{
-    background-color: beige;
+    background-color: rgba(16, 196, 196, 0.089);
     background-size: cover;
 }
 header{
-    height: 5%;
+    height: 12%;
    position: fixed;
    width: 100%; 
-   margin-top: -70px;
+   margin-top: -80px;
+   background-color: brown;
+   
+}
+#fig1{
+    float: right;
+    margin-top: -15px;
+    
+}
+.fig2{
+    float: left;
+    margin-top: -15px
+}
+.contactme{
+    text-align: center;
+    margin-top: 50px;
+    background-color: aliceblue;
+    height: ;
+
 }
 header h1{
     float: left;
@@ -19,8 +37,11 @@ nav{
     float: right;
     justify-content: space-between;
     padding: 40px;
-    margin-top: -14px ;
+    margin-top: -4px ;
     font-size: 22px;
+    }
+    .cfo{
+        margin-top: 30px;
     }
     .navbar a{
         color: #150101;
@@ -60,7 +81,7 @@ form{
     background-color:  rgba(238, 234, 234, 0.918);
     margin-left: 400px;
     margin-right: 400px;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 input {
     width: 200px;
