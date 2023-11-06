@@ -1,6 +1,10 @@
 body{
     background-color: snow;
 }
+.img_fluid{
+    width:50%;
+    height:50%;
+}
 header{
     height: 5%;
    position: fixed;
